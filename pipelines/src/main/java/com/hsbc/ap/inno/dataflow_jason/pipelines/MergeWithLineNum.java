@@ -41,7 +41,8 @@ public class MergeWithLineNum {
                         for(Integer i=0;pc.element()!=null;i++)
                         pc.element().concat(i.toString());
                     }
-                }));
+                }))
+                ;
 
 
 //        lines_from_file_a.
