@@ -5,7 +5,7 @@ import org.apache.beam.runners.direct.DirectRunner;
 import org.apache.beam.sdk.Pipeline;
 import org.apache.beam.sdk.io.gcp.bigquery.BigQueryIO;
 
-class SdkDependencies {
+public class SdkDependencies {
     private Pipeline p;
     private BigQueryIO bigQueryIO;
     private DirectRunner directRunner;

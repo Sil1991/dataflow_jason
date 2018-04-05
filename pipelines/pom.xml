@@ -3,8 +3,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>dataflow_jason</artifactId>
         <groupId>com.hsbc.ap.inno</groupId>
+        <artifactId>dataflow_jason</artifactId>
         <version>1.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -13,9 +13,11 @@
     <packaging>jar</packaging>
 
     <dependencies>
+
+
         <dependency>
             <groupId>com.google.cloud.dataflow</groupId>
-            <artifactId>google-cloud-dataflow-java-sdk-all</artifactId>
+            <artifactId>sdk-all</artifactId>
         </dependency>
 
         <dependency>
@@ -36,6 +38,11 @@
         <dependency>
             <groupId>org.apache.beam</groupId>
             <artifactId>beam-runners-google-cloud-dataflow-java</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.hsbc.ap.inno</groupId>
+            <artifactId>sdk-all</artifactId>
+            <version>1.0</version>
         </dependency>
 
     </dependencies>
